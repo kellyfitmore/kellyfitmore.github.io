@@ -2,6 +2,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123053155-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123053155-1');
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--    
 <link rel="stylesheet" type="text/css" href="/style.css">
@@ -50,6 +60,7 @@ body {
     }    
     
 .header {
+    color: white;
 
   overflow: hidden;
     background: linear-gradient(to top left, #7155f3, #f5b2c9);
@@ -66,8 +77,10 @@ body {
     }
 
 .header a {
+        color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
   float: left;
-  color: black;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -77,17 +90,23 @@ body {
   
 
 .header a:hover {
-  color: black;
+    color: #000;
+            text-shadow: none;
+
 }
 
 .header a.active {
-  color: white;
+  color: black;
+        text-shadow: none;
+
+
 }
     
 .header-right {
   float: right;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    color: #fff;
 
 }
     
