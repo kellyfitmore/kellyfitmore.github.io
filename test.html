@@ -184,8 +184,9 @@ body {
   .header-right {
     float: none;
   }
-    
-   
+.responsive {
+        width: 100%;
+    } 
     
 }
     
@@ -196,7 +197,6 @@ body {
         padding: 0px;
     }
      .me { padding: 0px;
-
             width: 100%;
             border-width: 0px;
             box-shadow: none;
@@ -204,12 +204,47 @@ body {
     
 }
     
-    
+ 
 @media screen and (max-width: 500px) {
     .header {
-        
     min-height: 100vh;
     }
+}
+ div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 30px 30px;
+    float: left;
+    width: 100%;
+}
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 </style>    
  
 <body>
@@ -217,44 +252,34 @@ body {
     <a href="/index.html" class="logo">Kelly Fitmore</a>
 <div class="header-right">
     <a  href="/index.html">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/free.html">Free Content</a>
-    <a href="/contact.html">Contact</a>
+    <a  href="/about.html">About</a>
+    <a href="https://us19.campaign-archive.com/home/?u=a4feeca9359b441ffcafd0b01&id=6bc71578c8" target="_blank" >Free Content</a>
+    <a  href="/contact.html">Contact</a>
     <a class="active" href="/test.html">Testimonials</a>
     <a href="apply.html">Apply: NUTRITION COACHING</a>
     </div>          
 </div>
 
 
-<div class="row">
-  <div class="column" style="background-color:#fff;">
-<img src="side.JPG" class="me">
-  </div>
-    
-    
-  <div class="column" style="background-color:#fff; padding: 30px;">
-      <div class="test">
-      <h4>Stephen:</h4>
-              <p>Wow, I was so goddamn fat before Kelly. Thanks to her I can fit into my size 32 pants. </p>
-      </div>
-            <div class="test">
-
-      <h4>John:</h4>
-      <p>I don't exsist, but if I did, I'm sure Kelly could have helped me maintain healthy lean mass.</p>
-      </div>
-        <div class="test">
-
-      <h4>Liz:</h4>
-      <p>Blah blah blah lots of kind words.</p>
-      </div>
-
+<div class="responsive">
+  <div class="gallery">
+    <div class="desc">
+        <h2>Clancy Forman</h2>
+        Ever since starting with Kelly with my nutrition, I have noticed multiple changes. My metabolism and digestion increased and is back to a healthy state after being thrown all over the place with overeating and undereating. My performance in the gym has significantly increased because of the increase in calories from her reverse diet. My physique and fat loss has been much more efficient than in the past. I don’t feel hungry during the day while dieting, or maintaining. I was given a wide range of macros so I can eat multiple different kinds of foods, which has been helping my cravings. It doesn’t even feel like dieting because I can eat a lot of what I want and still maintain and lose weight and body fat. She fits the diet towards your lifestyle and doesn’t even make it seem like a diet. She provides numerous different options and meals as alternatives, or ideas that help with every aspect of your particular macros. I couldn’t have asked for a better coach with so much knowledge about nutrition. All my progress has been because of Kelly and my future progress will be because of her as well. She has completely changed how I look at food and my mindset. Because of this my approach to food is much healthier and efficient than it ever was. Kelly has been the only one to make such an impact on me in that way. She is so inspiring and motivating that you want to do the best you can. If you are looking for a nutrition coach to aid and help you with whatever your fitness goals, look no more, Kelly has got your back!</div>
   </div>
 </div>
-    
-    
-    
-<div class="footer">
-<h6 style="float: right;">copyright 2018.</h6>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <div class="desc"><h2>Samantha Lombardo</h2>When I started working with Kelly back in June I was 150lb (I am 5’5”). I was kind of lost and really needed some help with figuring out my macros. I wanted to lose some weight and what I was doing wasn’t working. 
+Kelly has been really awesome and super helpful. We have been doing a cut but I still feel strong, I am not hungry and my training is going really well. Overall I feel great and my current body weight average is 147lb. I am excited to see where things go and to see my body to keep changing.
 </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
 </body>
 </html>
